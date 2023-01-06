@@ -1,0 +1,843 @@
+/**************************/
+/* 1520 px */
+/**************************/
+
+@media (max-width: 95em) {
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 1.8rem;
+  }
+
+  .nav-list {
+    gap: 3.2rem;
+  }
+  .hero-text {
+    font-size: 1.8rem;
+  }
+
+  .hero-heading {
+    font-size: 5.2rem;
+  }
+
+  .hero,
+  .copy--container {
+    height: 100rem;
+    gap: 8rem;
+    max-width: 100vh;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+  }
+
+  .fazana {
+    height: 70rem;
+    gap: 8rem;
+    max-width: 100vh;
+  }
+
+  .fazana-heading {
+    font-size: 4.4rem;
+  }
+
+  .fazana-text {
+    font-size: 1.8rem;
+  }
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .house-description {
+    height: 100rem;
+    gap: 8rem;
+    max-width: 100vh;
+  }
+
+  .house-description-text {
+    font-size: 1.8rem;
+  }
+
+  .house-description-heading {
+    font-size: 4.4rem;
+  }
+
+  .Photos-section {
+    margin-bottom: 6.4rem;
+    margin-top: 6.4rem;
+  }
+
+  .Photos {
+    height: 100rem;
+    max-width: 100rem;
+  }
+
+  .amenities-container {
+    height: 100rem;
+    margin-bottom: 6.4rem;
+    gap: 8rem;
+  }
+
+  .amenities-container {
+    height: 160rem;
+    max-width: 100vh;
+  }
+
+  .amenities-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .amenities-title {
+    font-size: 1.8rem;
+  }
+  .amenities-heading {
+    font-size: 4.4rem;
+  }
+
+  .amenities-grid {
+    gap: 8rem;
+  }
+
+  .location {
+    height: 130rem;
+    margin-top: 6.4rem;
+  }
+
+  .location iframe {
+    width: 100rem;
+    height: 70rem;
+  }
+
+  .heading {
+    font-size: 4.4rem;
+  }
+}
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* --- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+/**************************/
+/* 1250 px */
+/**************************/
+
+@media (max-width: 78em) {
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 1.4rem;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .nav-list {
+    gap: 2.4rem;
+  }
+  .hero-text {
+    font-size: 1.4rem;
+  }
+
+  .hero-heading {
+    font-size: 4.4rem;
+  }
+
+  .hero,
+  .copy--container {
+    height: 90rem;
+    gap: 4rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+  }
+
+  .fazana {
+    height: 70rem;
+    /* gap: 4rem; */
+  }
+
+  .fazana-heading {
+    font-size: 3.6rem;
+  }
+
+  .fazana-text {
+    font-size: 1.4rem;
+  }
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  .house-description {
+    height: 90rem;
+    gap: 4rem;
+  }
+
+  .house-description-text {
+    font-size: 1.4rem;
+  }
+
+  .house-description-heading {
+    font-size: 3.6rem;
+  }
+
+  .Photos-section {
+    margin-bottom: 4.8rem;
+    margin-top: 4.8rem;
+  }
+
+  .Photos {
+    height: 90rem;
+    max-width: 100vh;
+  }
+
+  .amenities-container {
+    height: 90rem;
+    /* margin-bottom: 4.8rem; */
+    gap: 4rem;
+    margin-top: 6.4rem;
+  }
+
+  .amenities-container {
+    height: 120rem;
+    max-width: 100vh;
+  }
+
+  .amenities-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+
+  .amenities-title {
+    font-size: 1.4rem;
+  }
+  .amenities-heading {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .amenities-grid {
+    gap: 4rem;
+  }
+
+  .location {
+    height: 110rem;
+    margin-top: 6.4rem;
+  }
+
+  .location iframe {
+    width: 80rem;
+    height: 50rem;
+  }
+
+  .heading {
+    font-size: 3.6rem;
+  }
+}
+.copyright {
+  font-size: 1rem;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80rem;
+
+  background-color: #fdf2e9;
+  padding: 10rem 10rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.modal-header {
+  font-weight: 700;
+  color: #333;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 6rem;
+}
+.form-modal {
+  margin: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-modal label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.form-modal input {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 9px;
+}
+.modal-btn,
+.modal-btn:link,
+.modal-btn:visited {
+  font-family: inherit;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  margin-top: 1rem;
+  grid-column: 1 / span 2;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.modal-btn:hover,
+.modal-btn:active {
+  background-color: #cf711f;
+}
+.btn--close-modal {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 2.2rem;
+  background-color: #fdf2e9;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 4rem;
+}
+.modal-header span {
+  color: #e67e22;
+  text-transform: uppercase;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* --- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+/**************************/
+/* 950 px */
+/**************************/
+
+@media (max-width: 60em) {
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 1.2srem;
+  }
+
+  .nav-list {
+    gap: 1.6rem;
+  }
+  .hero-text {
+    font-size: 1.4rem;
+  }
+
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+
+  .hero,
+  .copy--container {
+    grid-template-columns: 1fr;
+    height: 100rem;
+    gap: 2rem;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .fazana-section {
+    height: 80rem;
+    margin-top: 10rem;
+  }
+
+  .fazana {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fazana-img {
+    width: 100%;
+  }
+
+  .fazana-heading {
+    font-size: 3rem;
+  }
+
+  .fazana-text {
+    font-size: 1.4rem;
+  }
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  .house-description {
+    height: 80rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .house-description-text {
+    font-size: 1.4rem;
+    /* grid-column: 1 / 2;
+    grid-row: 2 / -1; */
+  }
+
+  .house-description-heading {
+    font-size: 3rem;
+  }
+  .house-img {
+    z-index: 1000;
+    /* height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px; */
+  }
+
+  .Photos-section {
+    margin-bottom: 4.8rem;
+    margin-top: 3.2rem;
+  }
+
+  .Photos {
+    height: 100rem;
+    max-width: 70rem;
+  }
+
+  .amenities-section {
+    height: 90rem;
+    /* margin-bottom: 4.8rem; */
+    gap: 2rem;
+    margin-top: 4.8rem;
+  }
+
+  .amenities-container {
+    height: 90rem;
+    max-width: 60rem;
+  }
+
+  .amenities-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .amenities-title {
+    font-size: 1.2rem;
+  }
+  .amenities-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .amenities-grid {
+    gap: 2rem;
+  }
+
+  .location {
+    height: 80rem;
+    /* margin-top: 4.4rem; */
+  }
+
+  .location iframe {
+    width: 60rem;
+    height: 80rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+}
+.copyright {
+  font-size: 1rem;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80rem;
+
+  background-color: #fdf2e9;
+  padding: 10rem 10rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.modal-header {
+  font-weight: 700;
+  color: #333;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 6rem;
+}
+.form-modal {
+  margin: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-modal label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.form-modal input {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 9px;
+}
+.modal-btn,
+.modal-btn:link,
+.modal-btn:visited {
+  font-family: inherit;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  margin-top: 1rem;
+  grid-column: 1 / span 2;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.modal-btn:hover,
+.modal-btn:active {
+  background-color: #cf711f;
+}
+.btn--close-modal {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 2.2rem;
+  background-color: #fdf2e9;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 4rem;
+}
+.modal-header span {
+  color: #e67e22;
+  text-transform: uppercase;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* --- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/**************************/
+/* 800 px */
+/**************************/
+@media (max-width: 50em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .img-slides {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .navigation {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15rem;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+  .nav-open .navigation {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .Photos {
+    height: 80rem;
+    max-width: 70rem;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-list:link,
+  .nav-list:visited {
+    font-size: 3rem;
+  }
+  .hero {
+    height: 70rem;
+  }
+
+  .hero-img {
+    width: 80%;
+    height: 80%;
+  }
+}
+/**************************/
+/* 600 px */
+/**************************/
+@media (max-width: 37em) {
+  .amenities-section {
+    height: 90rem;
+    /* margin-bottom: 4.8rem; */
+    gap: 2rem;
+    margin-top: 4.8rem;
+  }
+
+  .Photos {
+    height: 70rem;
+  }
+
+  .slider {
+    height: 80rem;
+    /* height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px; */
+  }
+
+  .img-slides {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .amenities-container {
+    height: 120rem;
+    max-width: 40rem;
+  }
+
+  .amenities-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .section-house-description {
+    height: 50rem;
+  }
+
+  .fazana-section {
+    height: 50rem;
+  }
+  .amenities-title {
+    font-size: 1.4rem;
+  }
+
+  /* .amenities-icon {
+    font-size: 2.4rem;
+    height: 2.4rem;
+  } */
+  .amenities-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .amenities-grid {
+    gap: 2rem;
+  }
+
+  .location {
+    margin-top: 20rem;
+    height: 70rem;
+    display: flex;
+  }
+
+  .section-location {
+    background-color: #fff;
+  }
+
+  .location iframe {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .heading {
+    font-size: 3.6rem;
+  }
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40rem;
+
+    background-color: #fdf2e9;
+    padding: 5rem;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: all 0.5s;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    transition: all 0.5s;
+  }
+
+  .modal-header {
+    margin-bottom: 4rem;
+  }
+  .form-modal {
+    margin: 0 3rem;
+
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .form-modal label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2;
+  }
+
+  .form-modal input {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 9px;
+    width: 18rem;
+  }
+
+  .btn--close-modal {
+    right: 3rem;
+    top: 2rem;
+  }
+  .modal-btn,
+  .modal-btn:link,
+  .modal-btn:visited {
+    font-family: inherit;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    margin-top: 1rem;
+
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+  }
+
+  .modal-btn:hover,
+  .modal-btn:active {
+    background-color: #cf711f;
+  }
+}
